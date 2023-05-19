@@ -1,0 +1,45 @@
+.layout-fixed .main-sidebar {
+    background:#000000;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #b3181b;
+    color: #fff;
+}
+
+[class*=sidebar-dark] .btn-sidebar, [class*=sidebar-dark] .form-control-sidebar,[class*=sidebar-dark] .list-group-item {
+  background-color: #ffffff;
+    border: 1px solid #56606a;
+    color: #b3181b;
+}
+[class*=sidebar-dark] .btn-sidebar:hover {
+  background-color: #b3181b;
+    color: #fff;
+}
+.content-wrapper {
+    background-color: #f5f5f5;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(179 24 27);
+}
+[class*=sidebar-dark-] {
+    background-color: #000000;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #b3181b;
+    border-color: #000000;
+    box-shadow: none;
+}
+.btn-secondary:hover{
+    background-color: #fff;
+   color: #b3181b;
+}
+.card-primary:not(.card-outline)>.card-header{
+    background-color: #b3181b;
+}
+/* .btn-primary,.btn-primary:hover{
+    background-color: #b3181b;
+    border:none;
+} */
+
+

@@ -1,0 +1,280 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .navigation {
+        display: none;
+    }
+    .resonsiveNav {
+        display: flex;
+    }
+    .aboutUs {
+        flex-wrap: wrap;
+    }
+
+    .chooseImg {
+        width: 30%;
+        text-align: center;
+    }
+    .chooseContent {
+        width: 70%;
+    }
+    .stats {
+        margin: 0px 50px;
+        margin-top: -100px;
+    }
+
+    .bannerLeft div {
+        width: 65%;
+    }
+    .projectNav,
+    .team,
+    #headingContact {
+        margin-top: 160px;
+    }
+    .project img {
+        cursor: pointer;
+        filter: grayscale(0.3);
+        margin: 5px;
+        width: 40%;
+    }
+    .projectPopUp {
+        width: 90%;
+        height: 50vh;
+        margin: 0px 5%;
+        margin-top: 15%;
+    }
+    .projectPopUpImg div {
+        flex-wrap: wrap;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    .projectPopUpImg img {
+        width: 80px;
+    }
+
+    .teamContent {
+        padding: 20px;
+    }
+    .readmore {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .readmore h2,
+    .readmore b {
+        text-align: center;
+    }
+    .readmore p {
+        text-align: justify;
+    }
+
+    .contactForm form textarea {
+        height: 15vh;
+    }
+    .formBtn input {
+        width: 100px;
+    }
+    .contactDetail div {
+        padding: 10px;
+    }
+    .contactDetail div div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 764px) {
+    .navigation {
+        display: none;
+    }
+    .resonsiveNav {
+        display: flex;
+    }
+    .resonsiveNav {
+        padding: 10px;
+    }
+    .resonsiveNav img {
+        width: 200px;
+    }
+    .aboutUs {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        margin: 10px;
+    }
+    .aboutUs h2 {
+        text-align: center;
+    }
+    .aboutUs img {
+        width: 200px;
+    }
+    .stats {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .stats div {
+        margin: 20px 0px;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+    .banner {
+        height: 100vh;
+    }
+    .bannerLeft div {
+        margin: 2px;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .choose {
+        margin: 10px;
+    }
+    .individualChooseDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chooseImg,
+    .chooseContent {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .chooseImg img {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+
+        border-radius: 0px;
+    }
+    .testimonial {
+        width: 70%;
+    }
+    .clients img {
+        width: 200px;
+        height: 150px;
+        margin: 20px;
+    }
+
+    .getintouch div {
+        flex-direction: column;
+    }
+    .getintouch div a {
+        margin-top: 10px;
+    }
+    footer {
+        /* margin-top: auto; */
+        background-color: #000000;
+        padding: 20px 10px;
+        padding-top: 220px;
+        color: #ffffff;
+    }
+    .innerFooter {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .innerFooter div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .copytrightFooter {
+        flex-direction: column;
+    }
+    .copytrightFooter ul {
+        margin-top: 20px;
+    }
+    .projectNav {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px;
+        margin-top: 120px;
+    }
+    .projectNav span {
+        padding: 10px 20px;
+        background-color: #fafafa;
+        cursor: pointer;
+        transition: var(--trans);
+        margin: 0px;
+    }
+
+    .project {
+        margin: 50px 10px;
+    }
+    .project img {
+        width: 100%;
+    }
+    .projectPopUp {
+        /* display: flex; */
+        overflow-y: scroll;
+        overflow-x: hidden;
+        flex-direction: column-reverse;
+        width: 95%;
+        height: 70vh;
+        margin: 0px 2.5%;
+        top: 20vh;
+        background-color: #fafafa;
+        z-index: 3;
+        box-shadow: 0px 4px 4px 0px grey;
+    }
+    .projectPopUpImg {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding-top: 150px;
+        margin-bottom: 20%;
+        z-index: 4;
+    }
+    .projectPopUpContent {
+        padding: 20px;
+        width: 100%;
+    }
+    .projectPopUpImg img {
+        width: 50px;
+        height: 50px;
+    }
+    #closeProject {
+        top: -284px;
+    }
+
+    .team {
+        margin: 0px 10px;
+        margin-top: 120px;
+    }
+    .individualTeam {
+        flex-direction: column;
+    }
+
+    .teamImg {
+        width: 100%;
+    }
+    .teamContent {
+        width: 100%;
+        padding: 20px;
+    }
+    .teamContent .btn {
+        margin-top: 10px;
+    }
+    .contactForm {
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+    .contactDetail {
+        width: 100%;
+    }
+    .contactForm form {
+        width: 100%;
+    }
+    .formBtn input {
+        width: 100px;
+    }
+    #point {
+        display: none;
+    }
+}
+@media screen and (min-device-width: 1134px) {
+    .resnavMenu {
+        display: none !important;
+    }
+}
